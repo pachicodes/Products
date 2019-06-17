@@ -1,3 +1,53 @@
 body {
     font-family: 'Carme', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+header {
+    background: #E6EFFF;
+    text-shadow: 0 0 4px #FF00FF;
+    font-size: 18px;    
+
+}
+
+.main {
+    padding: 10px;
+    line-height: 24px;
+    
+}
+
+.quantity__input {
+    border: solid 1px #FF9CFF;
+    background: #E6EFFF;
+}
+
+.choose__menu {
+    border: solid 1px #FF9CFF;
+    background: #E6EFFF;
+}
+
+
+.submit {
+    padding: 20px; 
+}
+
+.submit__button {
+    background: #000;
+    color: #E6EFFF;
+    padding: 10px; 
+    border: solid 1 #000;
+}
+
+
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #E6EFFF;
 }
