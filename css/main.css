@@ -11,9 +11,14 @@ header {
     height: 50px;       
 }
 
+.title {
+    padding: 10px;
+}
+
 
 .main {
     padding: 10px;
+    margin: 20px;
     line-height: 24px;    
 }
 
@@ -21,16 +26,12 @@ header {
     padding: 10px;
     margin: 10px
 }
-.quantity__input {
+
+.quantity__input, .choose__menu {
     border: solid 1px #FF9CFF;
     background: #E6EFFF;
+    width: 120px;
 }
-
-.choose__menu {
-    border: solid 1px #FF9CFF;
-    background: #E6EFFF;
-}
-
 
 .submit {
     padding: 20px; 
