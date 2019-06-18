@@ -60,10 +60,14 @@ footer {
         font-size: 36px;
     }
 
+    .main__text {
+        line-height: 44px;
+        padding: 20px;
+    }
+
     .options {
         position: relative;
-        padding: 20px;
-        
+        padding: 20px;        
     }
 
     .quantity {
@@ -72,16 +76,10 @@ footer {
         left: 700px;
     }
 
-    .choose {
-        
-    }
-
     .choose__menu, .quantity__input {
         padding: 10px;
         width: 200px;
         margin: 20px;
         font-size: 26px;
     }
-
-    .
 }
