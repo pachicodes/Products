@@ -15,7 +15,6 @@ header {
     padding: 10px;
 }
 
-
 .main {
     padding: 10px;
     margin: 20px;
@@ -44,15 +43,16 @@ header {
     border: solid 1 #000;
 }
 
-
-
-
-
-
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background: #E6EFFF;
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 26px; 
+    }
 }
