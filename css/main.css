@@ -65,16 +65,7 @@ footer {
         padding: 20px;
     }
 
-    .options {
-        position: relative;
-        padding: 20px;        
-    }
-
-    .quantity {
-        float: left;
-        position: relative;
-        left: 700px;
-    }
+    
 
     .choose__menu, .quantity__input {
         padding: 10px;
