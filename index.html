@@ -21,31 +21,31 @@
         <p class="main__text">Welcome!<br> Are you ready to buy the very best Magic Dust?<br> We offer 3 varieties:<br> Raibown Pop, Golden light and Blueish Skies.</p>
     </div>
 
-    <section class="options">
-        <div class="quantity">
-            <p class="quantity__text">How many?</p>
-            <input class="quantity__input" type="number" placeholder="Enter quantity...">
-        </div>
-
-        <div class="choose">
-            <p class="choose__text">Magic Dust type:</p>
-            <select name="Available Types" class="choose__menu">
-                <option value="pop">Rainbow Pop</option>
-                <option value="light">Golden Light</option>
-                <option value="skies">Blueish Skies</option>
-            </select>
-        </div>
+    <section class="theform">
+        <form>
+            <div class="quantity">
+                <p class="quantity__text">How many?</p>
+                <input class="quantity__input" type="number" placeholder="Enter quantity...">
+            </div>
+            <div class="choose">
+                <p class="choose__text">Magic Dust type:</p>
+                <select name="Available Types" class="choose__menu">
+                    <option value="pop">Rainbow Pop</option>
+                    <option value="light">Golden Light</option>
+                    <option value="skies">Blueish Skies</option>
+                </select>
+            </div>   
+            <div class="submit">
+                <button class="submit__button" type="submit">Submit</button>
+            </div>
+        
+            <div class="total">
+                <p class="total__text">TOTAL</p>
+                <form onsubmit="return results();" method="POST" action="display"></form>
+            </div>
+        </form>
     </section>
-
-    <div class="submit">
-        <button class="submit__button" type="submit">Submit</button>
-    </div>
-
-    <div class="total">
-        <p class="total__text">TOTAL</p>
-        <form onsubmit="return results();" method="POST" action="display"></form>
-    </div>
-
+    
     <footer>
         <p class="footer__text">Pachi Carlson, 2019</p>
     </footer>    
