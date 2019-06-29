@@ -8,6 +8,7 @@ var total = document.querySelector("[data-total]")
 
 button.addEventListener('click', function(event) {
     event.preventDefault();
+    total.innerHTML = "";
     var quant = input.value;
     var options = choose.value;
     var result = quant * options;
