@@ -1,16 +1,23 @@
 var pop = document.querySelector("[data-pop]");
 var light = document.querySelector("[data-light]");
 var skies = document.querySelector("[data-skies]");
+var input = document.querySelector("[data-input]");
+var choose = document.querySelector("[data-choose]");
+var button = document.querySelector("[data-button]");
+var total = document.querySelector("[data-total]")
 
-pop = 7;
-light = 11;
-skies = 19;
-
-submitButton.addEventListener('click', function(event) {
-    event.preventDefault()
-    var quantity = document.querySelector("[data-quantity]");
-    var choose = document.querySelector("[data-choose]");
-    
-}
-
+button.addEventListener('click', function(event) {
+    event.preventDefault();
+    var quant = input.value;
+    var options = choose.value;
+    var result = quant * options;
+    console.log(result);
+    var element = document.createElement('h1');
+    var totaly = document.createTextNode(result);
+    element.append(result);
+    total.append(element);
+    }
 )
+
+
+

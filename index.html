@@ -25,22 +25,22 @@
         <form>
             <div class="quantity">
                 <p class="quantity__text">How many?</p>
-                <input data-quantity class="quantity__input" type="number" placeholder="Enter quantity...">
+                <input data-input class="quantity__input" type="number" placeholder="Enter quantity...">
             </div>
             <div class="choose">
                 <p class="choose__text">Magic Dust type:</p>
                 <select data-choose name="Available Types" class="choose__menu">
-                    <option data-pop>Rainbow Pop</option>
-                    <option data-light>Golden Light</option>
-                    <option data-skies>Blueish Skies</option>
+                    <option data-pop value="9">Rainbow Pop</option>
+                    <option data-light value="32">Golden Light</option>
+                    <option data-skies value="11">Blueish Skies</option>
                 </select>
             </div>   
             <div class="submit">
-                <button class="submit__button" type="submit">Submit</button>
+                <button data-button class="submit__button" type="submit">Submit</button>
             </div>        
             <div class="total">
                 <p class="total__text">TOTAL</p>
-                
+                <p data-total class="total__result"></p>                
             </div>
         </form>
     </section>
